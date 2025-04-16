@@ -2,7 +2,7 @@ import { useRef } from "react";
 // import "./Login.css";
 import "./Signup.css"
 import { useNavigate, Link } from "react-router-dom";
-import videoSrc from './12345.mp4';
+// import videoSrc from './12345.mp4';
 
 
 function Signup() {
@@ -19,15 +19,27 @@ function Signup() {
     const password = passwordRef.current.value;
 
     if (name || email || password) {
-      let result = await fetch("http://localhost:3000/login", {
+      let result = await fetch("http://localhost:3000/api/register", {
         method: "post",
         body: JSON.stringify({ name, email, password }),
         headers: {
           "Content-Type": "application/json",
         },
       });
-      alert("Signup sucessfully");
+      alert("Signup sucessfully"+{result});
       navigate("/");
+      const data = await result.json();
+      if (data.msg === "success") {
+        const loginButton = document.querySelector("#LoginButton");
+        if (loginButton) {
+            loginButton.textContent = name; // Assuming the response contains the user's name
+          loginButton.style.border = "none";
+          loginButton.style.background = "none";
+          loginButton.style.cursor = "default";
+            loginButton.removeEventListener("click", handleSubmit);
+        }
+      }
+
     } else {
       alert("plese fill all the input box");
     }
