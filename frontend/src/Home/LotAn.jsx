@@ -5,7 +5,7 @@ function LotAn() {
       <div className="row mb-3 text-center">
         <div className="col">
           <lottie-player
-            src="https://lottie.host/d1dd4608-9883-48f1-b755-abb34ce61580/mAnJJnvfbi.json"
+            src="https://lottie.host/e723d13e-d181-49e6-92cd-e9beaf526a77/1oCQ1rrK5H.json"
             background="#FFFFFF"
             speed={1}
             style={{  height: 300 }}
@@ -18,7 +18,7 @@ function LotAn() {
        
         <div className="col ">
           <lottie-player
-            src="https://lottie.host/58919607-d4ee-4ccb-b353-ccb72c3b1173/BMI2akE8q2.json"
+            src="https://lottie.host/cd6f307b-3465-4241-98a2-5cf1b06e4d12/0On4nB4CeC.json"
             background="#FFFFFF"
             speed={1}
             style={{ height: 300 }}
