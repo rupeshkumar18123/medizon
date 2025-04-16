@@ -40,6 +40,7 @@ function Offer2() {
               <div className="col-3 " key={index}>
                 <div className="card">
                   <div className="card2 flex-l">
+                    <img src={row.photo_url} alt="loading image..." />
                     <p style={{ textAlign: "center" }}>{row.medicine_name}</p>
                     <h3 style={{ textAlign: "center" }}>$ {row.cost}</h3>
                     <input
