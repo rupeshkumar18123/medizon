@@ -18,7 +18,7 @@ function Navbar() {
         <div className="row  text-center ">
           <div className="col-3">
             <lottie-player
-              src="https://lottie.host/274e7c82-0be2-49f9-9763-939ec064129f/k8ppzLVNWR.json"
+              src="https://lottie.host/5be0c9c5-e29c-4d74-8323-74176f5c5add/zzOdIM5b4S.json"
               background="##fff"
               speed={1}
               style={{ width: 120, height: 120 }}
