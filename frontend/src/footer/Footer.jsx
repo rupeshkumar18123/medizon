@@ -4,19 +4,19 @@ function Footer() {
     <div id="footer">
       <div id="upper">
         <div id="line111">
-          <div class="head">Company</div>
+          <div className="head">Company</div>
           <p>About Us</p>
           <p>Careers</p>
           <p>Blog</p>
           <p>Partner with PharmEasy</p>
           <p>Sell at PharmEasy</p>
-          <div class="head">Our Services</div>
+          <div className="head">Our Services</div>
           <p>Order Medicine</p>
           <p>Healthcare Products</p>
           <p>Lab Tests</p>
         </div>
         <div id="line222">
-          <div class="head">Featured Categories</div>
+          <div className="head">Featured Categories</div>
           <p>Featured Categories</p>
           <p>Healthcare Devices</p>
              <p>Personal Care</p>
@@ -32,12 +32,12 @@ function Footer() {
        
         </div>
         <div id="line333">
-          <div class="head">Need Help</div>
+          <div className="head">Need Help</div>
           <p>Browse All Medicines</p>
           <p>Browse All Molecules</p>
           <p>Browse All Cities & Areas</p>
           <p>FAQs</p>
-          <div class="head">Policy Info</div>
+          <div className="head">Policy Info</div>
           <p>Editorial Policy</p>
           <p>Privacy Policy</p>
           <p>Vulnerability Disclosure Policy</p>
@@ -46,7 +46,7 @@ function Footer() {
           <p>Return Policy</p>
         </div>
         <div id="line444">
-          <div class="head">FOLLOW US</div>
+          <div className="head">FOLLOW US</div>
           <br />
           <div id="imgdiv">
             <a href="https://www.instagram.com/">
@@ -77,7 +77,7 @@ function Footer() {
         </div>
       </div>
       <div id="lower">
-        <div class="head" id="lowertext">
+        <div className="head" id="lowertext">
           Our Payment Partners
         </div>
         <div id="imgline">
