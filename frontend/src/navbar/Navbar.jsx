@@ -36,7 +36,7 @@ function Navbar() {
           </div>
           <div className="col-3 text-center l-top">
             <Link to={'/login'}>
-            <button className="btn btn-outline-light text-center" type="submit">
+            <button className="btn btn-outline-light text-center" type="submit" id="LoginButton">
               <FontAwesomeIcon icon={faSignInAlt} /> LOGIN
             </button>
             </Link>
