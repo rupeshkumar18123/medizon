@@ -35,10 +35,18 @@ function Signup() {
 
   return (
     <>
-    <video autoPlay muted loop className=" vid">
-        <source src={videoSrc} type="video/mp4" />
-        {/* Add additional source elements for different video formats if needed */}
-      </video>
+    <div className="vid">
+          <lottie-player
+            src="https://lottie.host/cd6f307b-3465-4241-98a2-5cf1b06e4d12/0On4nB4CeC.json"
+            background="#FFFFFF"
+            speed={1}
+            style={{ height: "100vh" }}
+            loop=""
+            autoPlay=""
+            direction={1}
+            mode="normal"
+          />
+        </div>
       <div className="Login">
         <Link to="/">
          
