@@ -9,6 +9,7 @@
 import React, { useEffect } from 'react'
 import Cookies from 'universal-cookie';
 import { useState } from 'react'
+import "./Cart.css"
 
 function Cart() {
   const [cost, setPrice] = useState(0);
@@ -66,6 +67,7 @@ function Cart() {
               <div className='card' key={index}>
                 {/* <img className='card-img-top mx-auto' src={data.url} alt='laptop' style={{ width: "250px" }} /> */}
                 <div className='card-body'>
+                <img src={data.photo_url} alt="loading image..." className="image_url" />
                   <h3>{data.medicine_name}</h3>
                   <h4>Quantity :{qtyMap.get(data.medicine_name)}</h4>
                   <h5> price : {data.cost} * {qtyMap.get(data.medicine_name)} = {data.cost * qtyMap.get(data.medicine_name)}</h5>
