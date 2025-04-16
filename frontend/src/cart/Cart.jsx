@@ -13,15 +13,26 @@ import "./Cart.css"
 
 function Cart() {
   const [cost, setPrice] = useState(0);
-  const [cartItems, setCartIteams] = useState({});
+  const [cartItems, setCartIteams] = useState([]);
   const [qtyMap, setQtyMap] = useState(new Map());
   const [productMap, setProductMap] = useState(new Map());
 
+  // useEffect(() => {
+  //   let cookies = new Cookies();
+  //   let existingProductInCart = cookies.get('cart_product');
+  //   setCartIteams(existingProductInCart);
+  // }, [])
+
   useEffect(() => {
-    let cookies = new Cookies();
-    let existingProductInCart = cookies.get('cart_product');
-    setCartIteams(existingProductInCart);
-  }, [])
+    const cookies = new Cookies();
+    const existingProductInCart = cookies.get('cart_product');
+    if (Array.isArray(existingProductInCart)) {
+      setCartIteams(existingProductInCart);
+    } else {
+      setCartIteams([]);
+    }
+  }, []);
+  
 
   useEffect(() => {
     var x = new Map();
@@ -40,6 +51,7 @@ function Cart() {
     setQtyMap(x);
     setProductMap(y);
     var sum = 0;
+    
     for (var j = 0; j < cartItems.length; j++) {
       sum += cartItems[j].cost;
     }
