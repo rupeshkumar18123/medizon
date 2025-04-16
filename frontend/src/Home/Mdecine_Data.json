@@ -1,0 +1,707 @@
+[
+    {
+        "index": 1,
+        "medicine_name": "PainAway",
+        "photo_url": "https://example.com/painaway.jpg",
+        "ingredient": "Acetaminophen",
+        "description": "PainAway is a fast-acting pain reliever that helps to reduce fever and relieve minor aches and pains due to headaches, muscle aches, backaches, arthritis, toothaches, colds, and menstrual cramps.",
+        "cost": "5.99"
+      },
+      {
+        "index": 2,
+        "medicine_name": "ColdRelief",
+        "photo_url": "https://example.com/coldrelief.jpg",
+        "ingredient": "Dextromethorphan, Phenylephrine",
+        "description": "ColdRelief is an over-the-counter medication used to relieve cough, stuffy nose, sinus congestion, and chest congestion caused by the common cold, flu, or other breathing illnesses.",
+        "cost": "7.49"
+      },
+      {
+        "index": 3,
+        "medicine_name": "AllergyEase",
+        "photo_url": "https://example.com/allergyease.jpg",
+        "ingredient": "Loratadine",
+        "description": "AllergyEase provides 24-hour relief of allergy symptoms such as sneezing, runny nose, itchy, watery eyes, and itching of the nose or throat. It is also used to relieve itching and hives.",
+        "cost": "8.99"
+      },
+    {
+      "index": 6,
+      "medicine_name": "SleepEase",
+      "photo_url": "https://example.com/sleepease.jpg",
+      "ingredient": "Diphenhydramine",
+      "description": "SleepEase is an antihistamine used to relieve symptoms of allergy, hay fever, and the common cold. It is also used to treat insomnia and promote sleep.",
+      "cost": "9.99"
+    },
+    {
+      "index": 7,
+      "medicine_name": "DigestionAid",
+      "photo_url": "https://example.com/digestionaid.jpg",
+      "ingredient": "Simethicone",
+      "description": "DigestionAid is used to relieve symptoms of gas, bloating, and discomfort caused by gas in the digestive tract.",
+      "cost": "3.49"
+    },
+    {
+      "index": 8,
+      "medicine_name": "FeverGuard",
+      "photo_url": "https://example.com/feverguard.jpg",
+      "ingredient": "Ibuprofen, Pseudoephedrine",
+      "description": "FeverGuard is used to reduce fever and relieve nasal congestion, sinus pressure, and pain associated with the common cold, flu, allergies, and other respiratory illnesses.",
+      "cost": "8.29"
+    },
+    {
+      "index": 9,
+      "medicine_name": "JointFlex",
+      "photo_url": "https://example.com/jointflex.jpg",
+      "ingredient": "Glucosamine, Chondroitin",
+      "description": "JointFlex is a dietary supplement used to support joint health and reduce symptoms of osteoarthritis, such as joint pain and stiffness.",
+      "cost": "12.99"
+    },
+    {
+      "index": 10,
+      "medicine_name": "EyeRelief",
+      "photo_url": "https://example.com/eyerelief.jpg",
+      "ingredient": "Naphazoline, Pheniramine",
+      "description": "EyeRelief is used to relieve redness, itching, and irritation of the eyes caused by allergies, hay fever, and other eye irritants.",
+      "cost": "6.99"
+    },
+    {
+      "index": 11,
+      "medicine_name": "StomachGuard",
+      "photo_url": "https://example.com/stomachguard.jpg",
+      "ingredient": "Bismuth Subsalicylate",
+      "description": "StomachGuard is used to relieve symptoms of diarrhea, upset stomach, heartburn, indigestion, and nausea.",
+      "cost": "7.99"
+    },
+    {
+      "index": 12,
+      "medicine_name": "NasalSpray",
+      "photo_url": "https://example.com/nasalspray.jpg",
+      "ingredient": "Oxymetazoline",
+      "description": "NasalSpray is used to relieve nasal congestion caused by colds, allergies, and sinus infections.",
+      "cost": "5.49"
+    },
+    {
+      "index": 13,
+      "medicine_name": "MuscleRelax",
+      "photo_url": "https://example.com/musclerelax.jpg",
+      "ingredient": "Cyclobenzaprine",
+      "description": "MuscleRelax is used to relieve muscle spasms and discomfort caused by strains, sprains, and other muscle injuries.",
+      "cost": "10.49"
+    },
+    {
+      "index": 14,
+      "medicine_name": "SkinRelief",
+      "photo_url": "https://example.com/skinrelief.jpg",
+      "ingredient": "Hydrocortisone",
+      "description": "SkinRelief is used to relieve itching, inflammation, and irritation of the skin caused by eczema, dermatitis, insect bites, and other conditions.",
+      "cost": "4.79"
+    },
+    {
+      "index": 15,
+      "medicine_name": "HeartHealth",
+      "photo_url": "https://example.com/hearthealth.jpg",
+      "ingredient": "Aspirin",
+      "description": "HeartHealth is used to reduce the risk of heart attack, stroke, and blood clotting in people with cardiovascular diseases.",
+      "cost": "3.99"
+    },
+    {
+      "index": 16,
+      "medicine_name": "BloodPressureControl",
+      "photo_url": "https://example.com/bloodpressurecontrol.jpg",
+      "ingredient": "Lisinopril",
+      "description": "BloodPressureControl is used to treat high blood pressure (hypertension) and heart failure.",
+      "cost": "11.99"
+    },
+    {
+      "index": 17,
+      "medicine_name": "FiberSupplement",
+      "photo_url": "https://example.com/fibersupplement.jpg",
+      "ingredient": "Psyllium Husk",
+      "description": "FiberSupplement is used to promote regularity and relieve constipation. It may also be used to lower cholesterol levels and improve heart health.",
+      "cost": "7.29"
+    },
+    {
+      "index": 18,
+      "medicine_name": "VitaminC",
+      "photo_url": "https://example.com/vitaminc.jpg",
+      "ingredient": "Ascorbic Acid",
+      "description": "VitaminC is a dietary supplement used to prevent and treat vitamin C deficiency, boost the immune system, and promote overall health.",
+      "cost": "6.49"
+    },
+    {
+      "index": 19,
+      "medicine_name": "BoneHealth",
+      "photo_url": "https://example.com/bonehealth.jpg",
+      "ingredient": "Calcium, Vitamin D",
+      "description": "BoneHealth is a dietary supplement used to support bone health and prevent osteoporosis.",
+      "cost": "9.79"
+    },
+    {
+      "index": 20,
+      "medicine_name": "IronSupplement",
+      "photo_url": "https://example.com/ironsupplement.jpg",
+      "ingredient": "Ferrous Sulfate",
+      "description": "IronSupplement is used to prevent and treat iron deficiency anemia and maintain healthy red blood cells.",
+      "cost": "5.99"
+    },
+    {
+      "index": 21,
+      "medicine_name": "MultiVitamin",
+      "photo_url": "https://example.com/multivitamin.jpg",
+      "ingredient": "Various vitamins and minerals",
+      "description": "MultiVitamin is a dietary supplement containing a combination of vitamins and minerals to support overall health and well-being.",
+      "cost": "12.99"
+    },
+    {
+      "index": 22,
+      "medicine_name": "ThroatLozenge",
+      "photo_url": "https://example.com/throatlozenge.jpg",
+      "ingredient": "Menthol, Eucalyptus",
+      "description": "ThroatLozenge is used to relieve sore throat, cough, and throat irritation caused by the common cold, flu, or allergies.",
+      "cost": "3.99"
+    },
+    {
+      "index": 23,
+      "medicine_name": "AntifungalCream",
+      "photo_url": "https://example.com/antifungalcream.jpg",
+      "ingredient": "Clotrimazole",
+      "description": "AntifungalCream is used to treat fungal infections of the skin, such as athlete's foot, jock itch, and ringworm.",
+      "cost": "6.99"
+    },
+    {
+      "index": 24,
+      "medicine_name": "DiaperRashCream",
+      "photo_url": "https://example.com/diaperrashcream.jpg",
+      "ingredient": "Zinc Oxide",
+      "description": "DiaperRashCream is used to prevent and treat diaper rash in babies by forming a protective barrier on the skin.",
+      "cost": "5.49"
+    },
+    {
+      "index": 25,
+      "medicine_name": "WoundCareOintment",
+      "photo_url": "https://example.com/woundcareointment.jpg",
+      "ingredient": "Bacitracin, Neomycin, Polymyxin B",
+      "description": "WoundCareOintment is used to prevent and treat minor skin infections and promote wound healing.",
+      "cost": "4.99"
+    },
+    {
+      "index": 26,
+      "medicine_name": "AntiItchCream",
+      "photo_url": "https://example.com/antiitchcream.jpg",
+      "ingredient": "Hydrocortisone",
+      "description": "AntiItchCream is used to relieve itching, inflammation, and irritation of the skin caused by insect bites, poison ivy, poison oak, and other irritants.",
+      "cost": "5.79"
+    },
+    {
+      "index": 27,
+      "medicine_name": "Decongestant",
+      "photo_url": "https://example.com/decongestant.jpg",
+      "ingredient": "Pseudoephedrine",
+      "description": "Decongestant is used to relieve nasal congestion caused by the common cold, sinusitis, allergies, and other respiratory conditions.",
+      "cost": "6.49"
+    },
+    {
+      "index": 28,
+      "medicine_name": "AntacidChewableTablets",
+      "photo_url": "https://example.com/antacidchewabletablets.jpg",
+      "ingredient": "Calcium Carbonate, Magnesium Hydroxide",
+      "description": "AntacidChewableTablets are used to relieve heartburn, acid indigestion, sour stomach, and upset stomach.",
+      "cost": "4.49"
+    },
+    {
+      "index": 29,
+      "medicine_name": "MotionSicknessRelief",
+      "photo_url": "https://example.com/motionsicknessrelief.jpg",
+      "ingredient": "Dimenhydrinate",
+      "description": "MotionSicknessRelief is used to prevent and treat motion sickness, nausea, and vomiting associated with travel, motion, and vertigo.",
+      "cost": "7.99"
+    },
+    {
+      "index": 30,
+      "medicine_name": "LaxativeTablets",
+      "photo_url": "https://example.com/laxativetablets.jpg",
+      "ingredient": "Sennosides",
+      "description": "LaxativeTablets are used to relieve constipation and promote bowel movements.",
+      "cost": "3.99"
+    },
+    {
+      "index": 31,
+      "medicine_name": "AntisepticSolution",
+      "photo_url": "https://example.com/antisepticsolution.jpg",
+      "ingredient": "Chlorhexidine",
+      "description": "AntisepticSolution is used to clean and disinfect wounds, cuts, and skin infections to prevent bacterial growth and promote healing.",
+      "cost": "6.99"
+    },
+    {
+      "index": 32,
+      "medicine_name": "AcneTreatmentGel",
+      "photo_url": "https://example.com/acnetreatmentgel.jpg",
+      "ingredient": "Benzoyl Peroxide",
+      "description": "AcneTreatmentGel is used to treat acne by killing acne-causing bacteria, unclogging pores, and reducing inflammation.",
+      "cost": "8.49"
+    },
+    {
+      "index": 33,
+      "medicine_name": "BurnReliefSpray",
+      "photo_url": "https://example.com/burnreliefspray.jpg",
+      "ingredient": "Lidocaine",
+      "description": "BurnReliefSpray is used to relieve pain and discomfort associated with minor burns, sunburns, and other skin irritations.",
+      "cost": "9.99"
+    },
+    {
+      "index": 34,
+      "medicine_name": "DandruffShampoo",
+      "photo_url": "https://example.com/dandruffshampoo.jpg",
+      "ingredient": "Coal Tar, Selenium Sulfide",
+      "description": "DandruffShampoo is used to treat and prevent dandruff and seborrheic dermatitis of the scalp.",
+      "cost": "7.29"
+    },
+    {
+      "index": 35,
+      "medicine_name": "HemorrhoidCream",
+      "photo_url": "https://example.com/hemorrhoidcream.jpg",
+      "ingredient": "Phenylephrine, Pramoxine",
+      "description": "HemorrhoidCream is used to relieve itching, pain, and swelling associated with hemorrhoids.",
+      "cost": "6.79"
+    },
+    {
+      "index": 36,
+      "medicine_name": "MigraineRelief",
+      "photo_url": "https://example.com/migrainerelief.jpg",
+      "ingredient": "Sumatriptan",
+      "description": "MigraineRelief is used to relieve migraine headaches and associated symptoms such as nausea, vomiting, and sensitivity to light and sound.",
+      "cost": "10.99"
+    },
+    {
+      "index": 37,
+      "medicine_name": "NailFungusTreatment",
+      "photo_url": "https://example.com/nailfungustreatment.jpg",
+      "ingredient": "Tolnaftate",
+      "description": "NailFungusTreatment is used to treat fungal infections of the nails, including athlete's foot and ringworm.",
+      "cost": "8.99"
+    },
+    {
+      "index": 38,
+      "medicine_name": "NicotinePatch",
+      "photo_url": "https://example.com/nicotinepatch.jpg",
+      "ingredient": "Nicotine",
+      "description": "NicotinePatch is used to help people quit smoking by reducing withdrawal symptoms and cravings associated with nicotine dependence.",
+      "cost": "29.99"
+    },
+    {
+      "index": 39,
+      "medicine_name": "VitaminD3",
+      "photo_url": "https://example.com/vitamind3.jpg",
+      "ingredient": "Cholecalciferol",
+      "description": "VitaminD3 is a dietary supplement used to prevent and treat vitamin D deficiency and support bone health, immune function, and overall well-being.",
+      "cost": "7.99"
+    },
+    {
+      "index": 40,
+      "medicine_name": "AsthmaInhaler",
+      "photo_url": "https://example.com/asthmainhaler.jpg",
+      "ingredient": "Albuterol",
+      "description": "AsthmaInhaler is used to relieve and prevent symptoms of asthma, including wheezing, shortness of breath, and chest tightness.",
+      "cost": "34.99"
+    },
+    {
+      "index": 41,
+      "medicine_name": "AntiNauseaMedication",
+      "photo_url": "https://example.com/antinauseamedication.jpg",
+      "ingredient": "Ondansetron",
+      "description": "AntiNauseaMedication is used to prevent and treat nausea and vomiting caused by chemotherapy, radiation therapy, surgery, and other medical treatments.",
+      "cost": "15.99"
+    },
+    {
+      "index": 42,
+      "medicine_name": "AntiFungalPowder",
+      "photo_url": "https://example.com/antifungalpowder.jpg",
+      "ingredient": "Miconazole",
+      "description": "AntiFungalPowder is used to treat fungal infections of the skin, such as athlete's foot, jock itch, and ringworm.",
+      "cost": "6.49"
+    },
+    {
+      "index": 43,
+      "medicine_name": "AntiChafingCream",
+      "photo_url": "https://example.com/antichafingcream.jpg",
+      "ingredient": "Zinc Oxide",
+      "description": "AntiChafingCream is used to prevent and relieve chafing, irritation, and discomfort caused by friction between the skin and clothing or body parts.",
+      "cost": "7.49"
+    },
+    {
+      "index": 44,
+      "medicine_name": "AntihistamineEyeDrops",
+      "photo_url": "https://example.com/antihistamineeyedrops.jpg",
+      "ingredient": "Ketotifen",
+      "description": "AntihistamineEyeDrops are used to relieve itching, redness, and irritation of the eyes caused by allergies, hay fever, and other eye irritants.",
+      "cost": "9.49"
+    },
+    {
+      "index": 45,
+      "medicine_name": "AntiWrinkleCream",
+      "photo_url": "https://example.com/antiwrinklecream.jpg",
+      "ingredient": "Retinol",
+      "description": "AntiWrinkleCream is used to reduce the appearance of fine lines, wrinkles, and signs of aging on the skin.",
+      "cost": "14.99"
+    },
+    {
+      "index": 46,
+      "medicine_name": "AntiDandruffShampoo",
+      "photo_url": "https://example.com/antidandruffshampoo.jpg",
+      "ingredient": "Zinc Pyrithione, Selenium Sulfide",
+      "description": "AntiDandruffShampoo is used to treat and prevent dandruff, seborrheic dermatitis, and scalp irritation.",
+      "cost": "5.99"
+    },
+    {
+      "index": 47,
+      "medicine_name": "AntiGasDrops",
+      "photo_url": "https://example.com/antigasdrops.jpg",
+      "ingredient": "Simethicone",
+      "description": "AntiGasDrops are used to relieve symptoms of gas, bloating, and discomfort caused by gas in the digestive tract.",
+      "cost": "4.29"
+    },
+    {
+      "index": 48,
+      "medicine_name": "AntiItchSpray",
+      "photo_url": "https://example.com/antiitchspray.jpg",
+      "ingredient": "Pramoxine",
+      "description": "AntiItchSpray is used to relieve itching, irritation, and discomfort associated with insect bites, poison ivy, poison oak, and other skin irritants.",
+      "cost": "7.79"
+    },
+    {
+      "index": 49,
+      "medicine_name": "ArthritisCream",
+      "photo_url": "https://example.com/arthritiscream.jpg",
+      "ingredient": "Capsaicin",
+      "description": "ArthritisCream is used to relieve joint pain and inflammation associated with arthritis, osteoarthritis, and rheumatoid arthritis.",
+      "cost": "10.99"
+    },
+    {
+      "index": 50,
+      "medicine_name": "AthleteFootCream",
+      "photo_url": "https://example.com/athletefootcream.jpg",
+      "ingredient": "Terbinafine",
+      "description": "AthleteFootCream is used to treat fungal infections of the skin, such as athlete's foot, jock itch, and ringworm.",
+      "cost": "8.49"
+    },
+    {
+      "index": 51,
+      "medicine_name": "BloodClotPrevention",
+      "photo_url": "https://example.com/bloodclotprevention.jpg",
+      "ingredient": "Warfarin",
+      "description": "BloodClotPrevention is used to prevent blood clots and reduce the risk of stroke, heart attack, and other cardiovascular events.",
+      "cost": "12.49"
+    },
+    {
+      "index": 52,
+      "medicine_name": "BoneJointSupplement",
+      "photo_url": "https://example.com/bonejointsupplement.jpg",
+      "ingredient": "Glucosamine, MSM",
+      "description": "BoneJointSupplement is a dietary supplement used to support bone and joint health, reduce inflammation, and relieve symptoms of osteoarthritis.",
+      "cost": "11.99"
+    },
+    {
+      "index": 53,
+      "medicine_name": "BurnGel",
+      "photo_url": "https://example.com/burngel.jpg",
+      "ingredient": "Lidocaine, Aloe Vera",
+      "description": "BurnGel is used to relieve pain and promote healing of minor burns, sunburns, and other skin irritations.",
+      "cost": "6.99"
+    },
+    {
+      "index": 54,
+      "medicine_name": "CalciumSupplement",
+      "photo_url": "https://example.com/calciumsupplement.jpg",
+      "ingredient": "Calcium Carbonate",
+      "description": "CalciumSupplement is used to prevent and treat calcium deficiency and support bone health.",
+      "cost": "7.99"
+    },
+    {
+      "index": 55,
+      "medicine_name": "CankerSoreRelief",
+      "photo_url": "https://example.com/cankersorerelief.jpg",
+      "ingredient": "Benzocaine",
+      "description": "CankerSoreRelief is used to relieve pain and discomfort associated with canker sores and mouth ulcers.",
+      "cost": "5.49"
+    },
+    {
+      "index": 56,
+      "medicine_name": "CholesterolLowering",
+      "photo_url": "https://example.com/cholesterollowering.jpg",
+      "ingredient": "Atorvastatin",
+      "description": "CholesterolLowering is used to lower cholesterol levels and reduce the risk of heart attack, stroke, and other cardiovascular diseases.",
+      "cost": "15.99"
+    },
+    {
+      "index": 57,
+      "medicine_name": "ColdSoreTreatment",
+      "photo_url": "https://example.com/coldsoretreatment.jpg",
+      "ingredient": "Docosanol",
+      "description": "ColdSoreTreatment is used to treat cold sores (fever blisters) caused by the herpes simplex virus.",
+      "cost": "7.49"
+    },
+    {
+      "index": 58,
+      "medicine_name": "ConstipationRelief",
+      "photo_url": "https://example.com/constipationrelief.jpg",
+      "ingredient": "Polyethylene Glycol",
+      "description": "ConstipationRelief is used to relieve constipation and promote bowel movements.",
+      "cost": "6.99"
+    },
+    {
+      "index": 59,
+      "medicine_name": "CoughSyrup",
+      "photo_url": "https://example.com/coughsyrup.jpg",
+      "ingredient": "Dextromethorphan, Guaifenesin",
+      "description": "CoughSyrup is used to relieve cough and chest congestion caused by the common cold, flu, or other respiratory conditions.",
+      "cost": "8.29"
+    },
+    {
+      "index": 60,
+      "medicine_name": "DentalPainRelief",
+      "photo_url": "https://example.com/dentalpainrelief.jpg",
+      "ingredient": "Benzocaine",
+      "description": "DentalPainRelief is used to temporarily relieve pain and discomfort associated with toothaches and oral irritation.",
+      "cost": "5.99"
+    },
+    {
+      "index": 61,
+      "medicine_name": "DetoxSupplement",
+      "photo_url": "https://example.com/detoxsupplement.jpg",
+      "ingredient": "Milk Thistle, Dandelion Root",
+      "description": "DetoxSupplement is a dietary supplement used to support liver health, promote detoxification, and cleanse the body of toxins.",
+      "cost": "12.99"
+    },
+    {
+      "index": 62,
+      "medicine_name": "DiabeticFootCream",
+      "photo_url": "https://example.com/diabeticfootcream.jpg",
+      "ingredient": "Urea",
+      "description": "DiabeticFootCream is used to moisturize and soften dry, cracked skin on the feet caused by diabetes.",
+      "cost": "7.49"
+    },
+    {
+      "index": 63,
+      "medicine_name": "DigestiveEnzymes",
+      "photo_url": "https://example.com/digestiveenzymes.jpg",
+      "ingredient": "Lactase, Amylase, Lipase",
+      "description": "DigestiveEnzymes are used to aid digestion and relieve symptoms of indigestion, bloating, and gas caused by insufficient enzyme production.",
+      "cost": "9.79"
+    },
+    {
+      "index": 64,
+      "medicine_name": "DryEyeRelief",
+      "photo_url": "https://example.com/dryeyerelief.jpg",
+      "ingredient": "Artificial Tears",
+      "description": "DryEyeRelief is used to relieve symptoms of dry eyes, including itching, burning, irritation, and redness.",
+      "cost": "8.49"
+    },
+    {
+      "index": 65,
+      "medicine_name": "EarWaxRemoval",
+      "photo_url": "https://example.com/earwaxremoval.jpg",
+      "ingredient": "Carbamide Peroxide",
+      "description": "EarWaxRemoval is used to soften and remove excess ear wax buildup, helping to relieve ear discomfort and improve hearing.",
+      "cost": "5.99"
+    },
+    {
+      "index": 66,
+      "medicine_name": "FungalNailTreatment",
+      "photo_url": "https://example.com/fungalnailtreatment.jpg",
+      "ingredient": "Ciclopirox",
+      "description": "FungalNailTreatment is used to treat fungal infections of the nails, including toenail fungus.",
+      "cost": "10.49"
+    },
+    {
+      "index": 67,
+      "medicine_name": "HairGrowthSupplement",
+      "photo_url": "https://example.com/hairgrowthsupplement.jpg",
+      "ingredient": "Biotin",
+      "description": "HairGrowthSupplement is a dietary supplement used to promote hair growth, strengthen hair follicles, and improve hair thickness and texture.",
+      "cost": "11.99"
+    },
+    {
+      "index": 68,
+      "medicine_name": "HemorrhoidWipes",
+      "photo_url": "https://example.com/hemorrhoidwipes.jpg",
+      "ingredient": "Witch Hazel",
+      "description": "HemorrhoidWipes are used to cleanse and soothe the anal area, providing relief from itching, burning, and discomfort associated with hemorrhoids.",
+      "cost": "7.99"
+    },
+    {
+      "index": 69,
+      "medicine_name": "InsectRepellentSpray",
+      "photo_url": "https://example.com/insectrepellentspray.jpg",
+      "ingredient": "DEET",
+      "description": "InsectRepellentSpray is used to repel mosquitoes, ticks, and other insects to prevent bites and reduce the risk of insect-borne diseases.",
+      "cost": "8.99"
+    },
+    {
+      "index": 70,
+      "medicine_name": "LiceTreatmentShampoo",
+      "photo_url": "https://example.com/licetreatmentshampoo.jpg",
+      "ingredient": "Permethrin",
+      "description": "LiceTreatmentShampoo is used to treat head lice infestations by killing lice and their eggs (nits) on the scalp and hair.",
+      "cost": "9.49"
+    },
+    {
+      "index": 71,
+      "medicine_name": "MouthSoreGel",
+      "photo_url": "https://example.com/mouthsoregel.jpg",
+      "ingredient": "Benzocaine, Menthol",
+      "description": "MouthSoreGel is used to relieve pain and discomfort associated with mouth sores, canker sores, cold sores, and gum irritation.",
+      "cost": "6.79"
+    },
+    {
+      "index": 72,
+      "medicine_name": "NasalDecongestantSpray",
+      "photo_url": "https://example.com/nasaldecongestantspray.jpg",
+      "ingredient": "Oxymetazoline",
+      "description": "NasalDecongestantSpray is used to relieve nasal congestion caused by the common cold, sinusitis, allergies, and other respiratory conditions.",
+      "cost": "7.29"
+    },
+    {
+      "index": 73,
+      "medicine_name": "PoisonIvyTreatment",
+      "photo_url": "https://example.com/poisonivytreatment.jpg",
+      "ingredient": "Calamine, Diphenhydramine",
+      "description": "PoisonIvyTreatment is used to relieve itching, inflammation, and discomfort associated with poison ivy, poison oak, and poison sumac.",
+      "cost": "8.49"
+    },
+    {
+      "index": 74,
+      "medicine_name": "SinusRinseKit",
+      "photo_url": "https://example.com/sinusrinsekit.jpg",
+      "ingredient": "Sodium Chloride",
+      "description": "SinusRinseKit is used to flush out nasal passages and relieve symptoms of sinus congestion, allergies, and sinusitis.",
+      "cost": "12.99"
+    },
+    {
+      "index": 75,
+      "medicine_name": "SleepingPills",
+      "photo_url": "https://example.com/sleepingpills.jpg",
+      "ingredient": "Doxylamine",
+      "description": "SleepingPills are used to treat insomnia and promote sleep by inducing drowsiness and sedation.",
+      "cost": "11.49"
+    },
+    {
+      "index": 76,
+      "medicine_name": "StoolSoftener",
+      "photo_url": "https://example.com/stoolsoftener.jpg",
+      "ingredient": "Docusate Sodium",
+      "description": "StoolSoftener is used to relieve constipation by softening stools and making them easier to pass.",
+      "cost": "5.99"
+    },
+    {
+      "index": 77,
+      "medicine_name": "SunburnReliefGel",
+      "photo_url": "https://example.com/sunburnreliefgel.jpg",
+      "ingredient": "Aloe Vera",
+      "description": "SunburnReliefGel is used to relieve pain, inflammation, and discomfort associated with sunburns and minor burns.",
+      "cost": "6.49"
+    },
+    {
+      "index": 78,
+      "medicine_name": "TeethingGel",
+      "photo_url": "https://example.com/teethinggel.jpg",
+      "ingredient": "Benzocaine",
+      "description": "TeethingGel is used to relieve pain and discomfort associated with teething in infants and young children.",
+      "cost": "4.99"
+    },
+    {
+      "index": 79,
+      "medicine_name": "TopicalAnalgesic",
+      "photo_url": "https://example.com/topicalanalgesic.jpg",
+      "ingredient": "Menthol, Camphor",
+      "description": "TopicalAnalgesic is used to relieve minor aches and pains of muscles and joints, such as arthritis, backache, strains, and sprains.",
+      "cost": "7.99"
+    },
+    {
+      "index": 80,
+      "medicine_name": "UrinaryPainRelief",
+      "photo_url": "https://example.com/urinarypainrelief.jpg",
+      "ingredient": "Phenazopyridine",
+      "description": "UrinaryPainRelief is used to relieve pain, burning, and discomfort associated with urinary tract infections and other urinary problems.",
+      "cost": "8.99"
+    },
+    {
+      "index": 81,
+      "medicine_name": "WartRemovalCream",
+      "photo_url": "https://example.com/wartremovalcream.jpg",
+      "ingredient": "Salicylic Acid",
+      "description": "WartRemovalCream is used to treat common warts, plantar warts, and verrucas by causing the wart to gradually peel off.",
+      "cost": "6.49"
+    },
+    {
+      "index": 82,
+      "medicine_name": "WeightLossSupplement",
+      "photo_url": "https://example.com/weightlosssupplement.jpg",
+      "ingredient": "Garcinia Cambogia",
+      "description": "WeightLossSupplement is a dietary supplement used to aid weight loss by suppressing appetite, increasing metabolism, and reducing fat absorption.",
+      "cost": "14.99"
+    },
+    {
+      "index": 83,
+      "medicine_name": "WrinkleCream",
+      "photo_url": "https://example.com/wrinklecream.jpg",
+      "ingredient": "Retinol, Hyaluronic Acid",
+      "description": "WrinkleCream is used to reduce the appearance of wrinkles, fine lines, and signs of aging on the skin.",
+      "cost": "13.49"
+    },
+    {
+      "index": 84,
+      "medicine_name": "YeastInfectionTreatment",
+      "photo_url": "https://example.com/yeastinfectiontreatment.jpg",
+      "ingredient": "Miconazole",
+      "description": "YeastInfectionTreatment is used to treat yeast infections of the skin, mouth, and vagina.",
+      "cost": "9.99"
+    },
+    {
+      "index": 85,
+      "medicine_name": "AntibacterialSoap",
+      "photo_url": "https://example.com/antibacterialsoap.jpg",
+      "ingredient": "Triclosan",
+      "description": "AntibacterialSoap is used to cleanse and disinfect the skin, killing bacteria and preventing the spread of infection.",
+      "cost": "3.99"
+    },
+    {
+      "index": 86,
+      "medicine_name": "AntiCholesterolSupplement",
+      "photo_url": "https://example.com/anticholesterolsupplement.jpg",
+      "ingredient": "Plant Sterols",
+      "description": "AntiCholesterolSupplement is a dietary supplement used to lower cholesterol levels and reduce the risk of heart disease.",
+      "cost": "10.99"
+    },
+    {
+      "index": 87,
+      "medicine_name": "AntiperspirantDeodorant",
+      "photo_url": "https://example.com/antiperspirantdeodorant.jpg",
+      "ingredient": "Aluminum Chlorohydrate",
+      "description": "AntiperspirantDeodorant is used to reduce sweat and odor by blocking sweat glands and killing odor-causing bacteria.",
+      "cost": "4.49"
+    },
+    {
+      "index": 88,
+      "medicine_name": "AntisepticCream",
+      "photo_url": "https://example.com/antisepticcream.jpg",
+      "ingredient": "Benzalkonium Chloride",
+      "description": "AntisepticCream is used to prevent infection and promote healing of minor cuts, scrapes, and burns.",
+      "cost": "5.99"
+    },
+    {
+      "index": 89,
+      "medicine_name": "AntisepticWipes",
+      "photo_url": "https://example.com/antisepticwipes.jpg",
+      "ingredient": "Benzalkonium Chloride",
+      "description": "AntisepticWipes are used to cleanse and disinfect wounds, cuts, and skin infections to prevent bacterial growth and promote healing.",
+      "cost": "4.99"
+    },
+    {
+      "index": 90,
+      "medicine_name": "AntiviralMedication",
+      "photo_url": "https://example.com/antiviralmedication.jpg",
+      "ingredient": "Oseltamivir",
+      "description": "AntiviralMedication is used to treat and prevent influenza (flu) by inhibiting the replication of the influenza virus.",
+      "cost": "49.99"
+    }
+  ]
+  

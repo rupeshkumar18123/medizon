@@ -1,0 +1,124 @@
+.bg-color{
+    background-color: #37857e;
+}
+.bg-color2{
+    background-color: #1c4441;
+}
+.m-text{
+    text-decoration: none;
+    height: auto;
+    align-items: center;
+    margin: 2px;
+    text-align: center;
+    font-size: 4rem;
+    font-style: bold;
+    font-family: "Mokoto Glitch", sans-serif;
+    text-shadow: -1px -1px 0 #bc1f1f, 1px -1px 0 #f801cf, -1px 1px 0 #f801cf,
+    1px 1px 0 #f801cf;
+}
+.item {
+    height: auto;
+    width: auto;
+    color: rgb(19, 5, 54);
+    align-items: center;
+    margin: 10px;
+    /* background-color:  rgb(19, 5, 54); */
+    border-radius: 20%;
+    font-size: 25px;
+    font-style: bold;
+    font-family: "Mokoto Glitch", sans-serif;
+    text-align: center;
+    text-shadow: -1px -1px 0 #f80189, 1px -1px 0 #f801cf, -1px 1px 0 #f801cf,
+      1px 1px 0 #f801cf;
+  }
+
+  .hover_item:hover {
+    
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .null-link {
+    text-decoration: none !important;
+    color: rgb(255, 255, 255);
+  }
+
+  .null-link:hover {
+    
+    cursor: pointer;
+  }
+
+  .null-link:visited {
+    text-decoration: none;
+  }
+  .cont{
+    height: 6.90rem;
+  }
+  .nav{
+    position: sticky;
+  top: 0;
+  z-index: 3;
+  }
+  .brand-logo{
+    height: auto;
+    width: 1rem;
+  }
+  .l-top{
+    margin:auto;
+  }
+  .stext{
+    color:white;
+    font-weight: 600;
+  }
+  /* .btn{
+    width: 10rem;
+    height: auto;
+    font-size: 1.25rem;
+    
+  } */
+  .flex-b{
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  /* Style the search container */
+.search-container {
+  position: relative;
+}
+
+/* Style the input field */
+.search-container input[type=text] {
+  padding-right: 30px; /* Space for the search icon */
+}
+
+/* Style the search icon */
+.search-container button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 5px 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* You can replace font-awesome classes with your preferred search icon */
+.fa-search {
+  color: #555; /* Icon color */
+}
+
+.flex-s{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  flex-direction: column;
+}
+h2{
+  text-align: center;
+  margin-bottom: 1rem;
+  color: white;
+}
+ .main1{
+  background-color: #0a2b28;
+
+ }

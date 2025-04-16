@@ -1,0 +1,80 @@
+.Login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+   color: white;
+    padding-top: 5px;
+  }
+
+  .vid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  
+  }
+  
+  .vid  {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: 0;
+    position: fixed;
+    filter:blur(10px);
+    z-index: -1;
+  
+  }
+  
+  .LoginLogo {
+    width: 100px;
+    object-fit: contain;
+    margin: 25px 0;
+  }
+  
+  .LoginContainer {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 25px;
+    margin-top: 20px;
+    border: 1px solid rgb(77, 75, 75);
+  }
+  
+  .LoginContainer h1 {
+    margin-bottom: 25px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  .LoginContainer form input {
+    width: 99%;
+    height: 33px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin: 9px 0;
+    padding: 5px;
+    background-color: lavender;
+  }
+  
+  .LoginContainer button {
+    width: 100%;
+    height: 33px;
+    background: #f0c14b;
+    border-color: #a88734 #9c7e31 #846a29;
+    cursor: pointer;
+    color: #333;
+    border-radius: 10px;
+    margin-top: 14px;
+  }
+  
+  .LoginContainer p {
+    font-size: 14px;
+    margin: 9px 0;
+  }

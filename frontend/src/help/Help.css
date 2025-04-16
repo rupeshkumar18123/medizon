@@ -1,0 +1,23 @@
+.help-page-container {
+    text-align: center;
+    margin: auto;
+    max-width: 800px;
+  }
+  
+  .faq-section {
+    margin-top: 50px;
+  }
+  
+  .faq-item {
+    margin-bottom: 30px;
+  }
+  
+  /* Add more styling as needed */
+  .text1{
+    text-align: center;
+    font-weight: 700;
+ }  
+ .text2{
+    text-align: center;
+    font-weight: 400;
+ }  
