@@ -38,8 +38,9 @@ function Offer() {
           {data.map((row, index) => {
             return (
               <div className="col-3 " key={index}>
-                <div class="card">
-                  <div class="card2 flex-l">
+                <div className="card">
+                  <div className="card2 flex-l">
+                  <img src={row.photo_url} alt="loading image..." className="image_url" />
                     <p style={{ textAlign: "center" }}>{row.medicine_name}</p>
                     <h3 style={{ textAlign: "center" }}>$ {row.cost}</h3>
                     <input
