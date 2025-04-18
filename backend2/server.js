@@ -11,7 +11,9 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-
+app.use(cors({
+    origin: ["https://medizon-backend.vercel.app", "http://localhost:5173"] // Replace with the domains you want to allow
+}));
 
 
 app.use("/api",userRoutes);

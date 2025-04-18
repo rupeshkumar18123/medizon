@@ -1,9 +1,9 @@
 const express = require("express");
 const User = require("../models/User");
 const router = express.Router();
-const cors = require("cors");
+
 router.use(express.json());
-router.use(cors());
+
 
 router.post("/register",(req,resp)=>{
   const { name, email, password } = req.body;
