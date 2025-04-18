@@ -19,7 +19,7 @@ function Signup() {
     const password = passwordRef.current.value;
 
     if (name || email || password) {
-      let result = await fetch("http://localhost:3000/api/register", {
+      let result = await fetch("https://medizon-backend.vercel.app/api/register", {
         method: "post",
         body: JSON.stringify({ name, email, password }),
         headers: {
