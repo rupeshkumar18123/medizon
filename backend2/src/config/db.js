@@ -4,7 +4,7 @@
  const uri = process.env.MONGO_URI;
 
 
-mongoose.connect(uri,{ useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect(uri)
 .then(()=>{console.log("mongodb atlas database is connected")})
 .catch(err=>{console.log("error is occured, mongodb atlas is not connected",err)});
 

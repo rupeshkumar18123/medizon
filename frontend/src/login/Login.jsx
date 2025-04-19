@@ -23,7 +23,7 @@ function Login() {
     const password = passwordRef.current.value;
 
     if (email || password) {
-      let result = await fetch("https://medizon-backend.vercel.app/api/login", {
+      let result = await fetch("http://localhost:3000/api/login", {
         method: "post",
         body: JSON.stringify({ email, password }),
         headers: {
