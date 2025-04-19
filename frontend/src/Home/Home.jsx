@@ -1,7 +1,6 @@
-import Navbar from "../navbar/navbar";
+
 
 import "./home.css";
-import data from "../Mdecine_Data.json";
 import LotAn from "./LotAn";
 import SearchBar from "../navbar/SearchBar";
 import Offer2 from "./offer/Offer2";
