@@ -1,7 +1,7 @@
 
 
 const express = require("express");
-const mongoose =require("mongoose");
+// const mongoose =require("mongoose");
 const cors = require("cors");
 const userRoutes = require("./src/routes/authRoutes");
 
@@ -14,7 +14,7 @@ app.use(cors({
     
 }));
 app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
+// app.use(express.urlencoded({ extended: true }));
 
 
 
@@ -30,7 +30,7 @@ app.get("/",(req,resp)=>{
 // })
 
 // Set up server
-// const PORT = process.env.PORT || 3000;
-// app.listen(PORT, () => console.log(`Server started on port: ${PORT}`));
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => console.log(`Server started on port: ${PORT}`));
 
 module.exports = app;
