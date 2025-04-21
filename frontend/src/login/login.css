@@ -1,64 +1,3 @@
-/* 
-.login-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  .card1 {
-    background-color: #3e8367;
-    border-radius: 8px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    text-align: center;
-    width: 300px;
-  }
-  
-  .input-container {
-    border-bottom: 1px solid #cccccc;
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-    padding: 10px 0;
-  }
-  
-  .icon {
-    margin-right: 10px;
-  }
-  
-  input {
-    border: none;
-    outline: none;
-    font-size: 16px;
-    width: 100%;
-  }
-  
-  .login-button {
-    background-color: #007bff;
-    border: none;
-    border-radius: 4px;
-    color: #ffffff;
-    cursor: pointer;
-    font-size: 16px;
-    padding: 10px 20px;
-    transition: background-color 0.3s ease;
-  }
-  
-  .login-button:hover {
-    background-color: #0056b3;
-  }
-
-
- */
-
-
-
-
-  /* login.css */
-
-/* Styling for the login container */
-
 
 .box {
   border-radius: 10%;
@@ -140,15 +79,6 @@ input {
   background-color: #0056b3;
 }
 
-/* Styling for video background */
-/* .video-background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  max-width: 100%;
-  max-height: 100%;
-  z-index: 1;
-} */
 
 
 .vid {

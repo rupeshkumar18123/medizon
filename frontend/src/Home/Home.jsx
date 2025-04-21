@@ -1,5 +1,3 @@
-
-
 import "./home.css";
 import LotAn from "./LotAn";
 import SearchBar from "../navbar/SearchBar";

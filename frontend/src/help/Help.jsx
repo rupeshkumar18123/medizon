@@ -1,5 +1,5 @@
 import React from 'react';
-import './Help.css'; // Import CSS file for styling
+import './Help.css'; 
 
 const Help = () => {
   return (
@@ -16,7 +16,6 @@ const Help = () => {
           <h3 className='text1'>How can I track my order?</h3>
           <p>Once your order is dispatched, you will receive a tracking number via email or SMS. You can use this tracking number to track the status of your delivery on our website.</p>
         </div>
-        {/* Add more FAQ items here */}
       </div>
     </div>
   );

@@ -1,5 +1,3 @@
-
-
 import "./offer.css";
 import data from "../Mdecine_Data.json";
 import SearchBar from "../../navbar/SearchBar";

@@ -1,8 +1,7 @@
 import { useRef } from "react";
-// import "./Login.css";
 import "./Signup.css"
 import { useNavigate, Link } from "react-router-dom";
-// import videoSrc from './12345.mp4';
+
 
 
 function Signup() {

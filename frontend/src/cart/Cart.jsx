@@ -1,11 +1,3 @@
-// function Cart(){
-//     return(
-//         <>
-//         this is cart page
-//         </>
-//     )
-// }
-// export default Cart;
 import React, { useEffect } from 'react'
 import Cookies from 'universal-cookie';
 import { useState } from 'react'
@@ -16,12 +8,6 @@ function Cart() {
   const [cartItems, setCartIteams] = useState([]);
   const [qtyMap, setQtyMap] = useState(new Map());
   const [productMap, setProductMap] = useState(new Map());
-
-  // useEffect(() => {
-  //   let cookies = new Cookies();
-  //   let existingProductInCart = cookies.get('cart_product');
-  //   setCartIteams(existingProductInCart);
-  // }, [])
 
   useEffect(() => {
     const cookies = new Cookies();
@@ -77,7 +63,6 @@ function Cart() {
             let [productTitle, data] = entry;
             return (
               <div className='card' key={index}>
-                {/* <img className='card-img-top mx-auto' src={data.url} alt='laptop' style={{ width: "250px" }} /> */}
                 <div className='card-body'>
                 <img src={data.photo_url} alt="loading image..." className="image_url" />
                   <h3>{data.medicine_name}</h3>
